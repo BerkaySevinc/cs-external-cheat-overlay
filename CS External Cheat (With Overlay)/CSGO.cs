@@ -14,6 +14,9 @@ namespace CSGO_S
     // Update() leri private yap
     // IOffsets objesi alsın ctor da
 
+    // sadece kullanılan şeylerin memorylerini oku boşuna yormasın
+
+
     public class CSGO : AdvancedProcess
     {
         public Player? LocalPlayer { get; private set; }
